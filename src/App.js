@@ -8,8 +8,10 @@ class App extends React.Component {
     return (
       <div className="App" >
         <Header />
-        <Filter />
-        <Listings />
+        <div className='main'>
+          <Filter />
+          <Listings />
+        </div>
       </div>
     );
   }
